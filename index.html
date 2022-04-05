@@ -14,18 +14,30 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 </head>
 <body>
-                <!-- The Random Quote Button -->
-    <button id="very-quotable-button" class="very-quotable-button" onclick="getRandomQuote()">Click for a Random Quote</button>
+    <div class="video-wrapper">
+        <video playsinline autoplay muted loop>
+            <source src="./background/business-background-video.mp4" type="video/mp4">
+            Sorry! Your browser isn't cool enough to support this video tag!
+        </video>
 
-<div class="very-quotable-box">
-<p id="text"></p>
-<p id="author"></p>
-</div>
+        <div class="header-overlay">
+                                <!-- The Random Quote Button -->
+                <button id="very-quotable-button" class="very-quotable-button" onclick="getRandomQuote()">Click for a Random Quote</button>
+                                <!-- The box where the Quote & Author's name appears -->
+                <div class="very-quotable-box">
+                <p id="text"></p>
+                <p id="author"></p>
+                </div>
+                
+                                <!-- The Date & Time Button -->
+                <button id="very-dateable-button" class="very-dateable-button" onclick="document.getElementById('date').innerHTML = Date()">Click for the Date & Time</button>
+                                <!-- The box where the Date & Time appears -->
+                <p class="date-text" id="date"></p>
+        </div>
+      </div>
 
-                <!-- The Date & Time Button -->
-<button id="very-dateable-button" class="very-dateable-button" onclick="document.getElementById('date').innerHTML = Date()">Click for the Date & Time</button>
 
-<p class="date-text" id="date"></p>
+
 
                 <!-- JavaScript Local File -->
 <script src="app.js"></script>

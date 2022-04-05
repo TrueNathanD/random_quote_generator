@@ -57,6 +57,6 @@ let getRandomQuote = async () => {
     let randomQuote = await gatherQuote();
     let randomizeNumber = Math.floor(Math.random() * randomQuote.length);
     text.innerHTML = `" ${randomQuote[randomizeNumber].text} "`;
-    author.innerHTML = randomQuote[randomizeNumber].author;
+    author.innerHTML = "- " + randomQuote[randomizeNumber].author;
     return randomQuote[randomizeNumber];
 }
