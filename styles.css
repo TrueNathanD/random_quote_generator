@@ -1,17 +1,107 @@
+                /* The Background Image */
 body {
     background: rgb(0, 0, 0) url("https://64.media.tumblr.com/tumblr_lsxpryGqcS1r17215o1_400.gif") no-repeat fixed center;
     background-size: cover;
 }
 
-button {
+                /* The Very Quotable Button */
+.very-quotable-button {
     width: 20%;
     margin: auto;
     text-align: center;
     color: white;
     background-color: green;
-    opacity: 0.5;
-    border: 5px solid #f07386;
+    border: 5px solid #82f073;
+    padding: 6px;
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+                /* The Very Quotable Button's Box for a Random Quote and it's Author */
+div.very-quotable-box {
+    width: 30%;
+    margin: auto;
+    background-color: rgb(0, 0, 0, 0.4);
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+#text {
+    color: gold;
+    text-align: left;
+}
+
+#author {
+    color: white;
+    text-align: right;
+}
+
+                /* The Very Dateable Button */
+.very-dateable-button {
+    width: 20%;
+    margin: auto;
+    text-align: center;
+    color: white;
+    background-color: rgb(252, 136, 4);
+    border: 5px solid #ffbb00;
+    padding: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+                /* The Very Dateable Button's Date/Time Text */
+.date-text {
+    width: 30%;
+    margin: auto;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0, 0.4);
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+                /* Reference Code Snippets */
+
+/*
+ {
+    -webkit-transition: ;
+	-moz-transition: ;
+	-o-transition: ;
+}
+*/
+
+                /* The Keyframes FadeIn Code */
+@keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+
+@-moz-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+
+@-webkit-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+
+@-o-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+
+@-ms-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
 }
