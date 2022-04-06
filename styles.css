@@ -40,27 +40,34 @@ video {
 
                 /* The Very Quotable Button's Box for a Random Quote and it's Author */
 div.very-quotable-box {
-    width: 100%;
-    margin: auto;
+    width: 500px;
+    height: 150px;
     background-color: rgb(0, 0, 0, 0.4);
-    justify-content: center;
-    align-items: center;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
+    border-radius: 20px 20px 20px 40px;
+    border-width: 30px 10px 20px 10px;
+    padding: 20px;
+    margin: 20px;
 }
 
 #text {
     color: gold;
     text-align: left;
+    left: 5%;
+    top: 5%;
 }
 
 #author {
     color: white;
     text-align: right;
+    position: absolute;
+    right: 10%;
+    bottom: 5%;
 }
 
                 /* The Very Dateable Button */
-.very-dateable-button {
+/* .very-dateable-button {
     width: 100%;
     margin: auto;
     text-align: center;
@@ -76,7 +83,7 @@ div.very-quotable-box {
 }
 
                 /* The Very Dateable Button's Box for Date/Time */
-.date-text {
+/* .date-text {
     width: 100%;
     margin: auto;
     text-align: center;
@@ -86,7 +93,7 @@ div.very-quotable-box {
     align-items: center;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
-}
+} */
 
                 /* Reference Code Snippets */
 /*
@@ -98,12 +105,12 @@ div.very-quotable-box {
 */
 
                 /* The Keyframes fadeIn Code */
-@keyframes fadeIn {
+/* @keyframes fadeIn {
     0% {opacity:0;}
     100% {opacity:1;}
-}
+} */
 
-@-moz-keyframes fadeIn {
+/* @-moz-keyframes fadeIn {
     0% {opacity:0;}
     100% {opacity:1;}
 }
@@ -121,4 +128,4 @@ div.very-quotable-box {
 @-ms-keyframes fadeIn {
     0% {opacity:0;}
     100% {opacity:1;}
-}
+} */
