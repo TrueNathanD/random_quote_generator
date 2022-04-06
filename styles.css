@@ -18,13 +18,14 @@ video {
 }
 
 .header-overlay{
+    margin-top: 40px;
     position: relative;
     color: white;
 }
 
                 /* The Very Quotable Button */
 .very-quotable-button {
-    width: 100%;
+    width: 60%;
     margin: auto;
     text-align: center;
     color: white;
@@ -40,7 +41,7 @@ video {
 
                 /* The Very Quotable Button's Box for a Random Quote and it's Author */
 div.very-quotable-box {
-    width: 500px;
+    width: 600px;
     height: 150px;
     background-color: rgb(0, 0, 0, 0.4);
     font-family: 'Roboto', sans-serif;
@@ -53,13 +54,17 @@ div.very-quotable-box {
 
 #text {
     color: gold;
+    font-weight: bold;
     text-align: left;
     left: 5%;
     top: 5%;
+    text-shadow: 1px 1px 2px rgb(0, 0, 0);
 }
 
 #author {
     color: white;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px rgb(0, 0, 0);
     text-align: right;
     position: absolute;
     right: 10%;
@@ -105,27 +110,11 @@ div.very-quotable-box {
 */
 
                 /* The Keyframes fadeIn Code */
-/* @keyframes fadeIn {
-    0% {opacity:0;}
-    100% {opacity:1;}
-} */
-
-/* @-moz-keyframes fadeIn {
-    0% {opacity:0;}
-    100% {opacity:1;}
+/* @keyframes fadein {
+    from{opacity:0}
+    to{opacity:1}
 }
 
-@-webkit-keyframes fadeIn {
-    0% {opacity:0;}
-    100% {opacity:1;}
-}
-
-@-o-keyframes fadeIn {
-    0% {opacity:0;}
-    100% {opacity:1;}
-}
-
-@-ms-keyframes fadeIn {
-    0% {opacity:0;}
-    100% {opacity:1;}
+@-webkit-keyframes fadein{from{opacity:0}
+to{opacity:1}
 } */
